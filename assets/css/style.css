@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
+
 /* Asterisk wildcard */
 *{
     padding: 0;
@@ -61,7 +63,14 @@ main{
 #hero{
     background: url("/assets/images/dogs-on-leash.jpg") no-repeat center center/cover;
     width: 100%;
-    height: 600px;
+    height: 400px;
+}
+/* About guardian dogs */
+#about{
+    background-color: oldlace;
+}
+#about p{
+    text-align: center;
 }
 /* Footer */
 footer{
@@ -81,4 +90,32 @@ footer{
     padding-left: 35px;
     padding-top: 10px;
     letter-spacing: 30px;
+}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px){
+    /* About guardian dogs */
+    #about p{
+    padding: 5px;
+    }
+}
+
+/* Media query: laptops and larger (992px and up) */
+@media screen and (min-width: 992px){
+    /* About guardian dogs */
+    #about{
+        padding: 10px 30px;
+        background-color: black;
+    }  
+    #about p{
+        background-color: oldlace;
+        border: 1px solid black;
+        border-radius: 8px;
+    }  
+}
+/* Media query: desktops (1200px and up) */
+@media screen and (min-width: 1200px){
+    /* About guardian dogs */
+    #about{
+        padding: 10px 50px;
+    }  
 }
