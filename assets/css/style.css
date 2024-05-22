@@ -1,0 +1,79 @@
+/* Asterisk wildcard */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Body */
+body{
+    min-height: 1500px;
+    display: flex;
+    flex-direction: row;
+}
+/* Header */
+header{
+    background-color: black;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+}
+/* Navigation bar */
+#nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 5px;
+}
+#nav-bar li{
+    display: inline;
+    border-right: 1px solid oldlace;
+}
+#nav-bar li:last-child{
+    border-right: none;
+}
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+}
+li a:hover{
+    color: oldlace;
+}
+.active{
+    text-decoration: underline;
+}
+/* Main */
+main{
+    background-color: oldlace; 
+    width: 100%;
+    /* Push footer down */
+    flex: 1 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+}
+#networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 130%;
+    padding-left: 35px;
+    padding-top: 10px;
+    letter-spacing: 30px;
+}
