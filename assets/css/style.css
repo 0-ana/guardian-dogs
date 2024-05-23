@@ -80,6 +80,24 @@ main{
     max-width: 100%;
     display: block;
 }
+/* Benefits section */
+
+.benefits{
+    width: 100%;
+    padding-top: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.benefits h3{
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+.benefits ul{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+}
 /* Footer */
 footer{
     background-color: black;
@@ -106,9 +124,20 @@ footer{
     padding: 5px;
     }
     /* First two images */
+    }
     #dogs-images{
         max-height: 400px;
     }
+    /* Benefits section */
+    .container{
+        width: 100%;
+        background-color: black;
+    }
+    .benefits{
+        width: 60%;
+        background-color: oldlace;
+        margin: 0 auto;  
+        margin-bottom: 10px;
 }
 
 /* Media query: laptops and larger (992px and up) */
@@ -133,6 +162,10 @@ footer{
     } 
     #dogs-images img{
         width: 40%;
+    }
+    /* Benefits section */
+    .benefits{
+
     }
 }
 /* Media query: desktops (1200px and up) */
