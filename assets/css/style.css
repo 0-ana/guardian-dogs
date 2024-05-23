@@ -72,6 +72,14 @@ main{
 #about p{
     text-align: center;
 }
+/* First two images section */
+#dogs-images{
+    width: 100%;
+}
+#dogs-images img{
+    max-width: 100%;
+    display: block;
+}
 /* Footer */
 footer{
     background-color: black;
@@ -97,6 +105,10 @@ footer{
     #about p{
     padding: 5px;
     }
+    /* First two images */
+    #dogs-images{
+        max-height: 400px;
+    }
 }
 
 /* Media query: laptops and larger (992px and up) */
@@ -110,7 +122,18 @@ footer{
         background-color: oldlace;
         border: 1px solid black;
         border-radius: 8px;
-    }  
+    } 
+    /* First two images */
+    #dogs-images{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 10px;
+    } 
+    #dogs-images img{
+        width: 40%;
+    }
 }
 /* Media query: desktops (1200px and up) */
 @media screen and (min-width: 1200px){
