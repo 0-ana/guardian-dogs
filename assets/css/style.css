@@ -121,6 +121,15 @@ main{
     color: black;
     text-align: center;
 }
+#three-main-breeds{
+    color: black;
+}
+#three-main-breeds div{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 2px 2px;
+    text-align: center;
+}
 /* Footer */
 footer{
     background-color: black;
@@ -183,6 +192,18 @@ footer{
     /* Quotes section */
     .quotes{
         column-count: 4;
+    }
+    /* Three main breeds */
+    #three-main-breeds{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: black;
+    }
+    #three-main-breeds div{
+        background-color: oldlace;
+        width: 100%;
+        margin: 10px;
+        text-align: center;
     }
 }
 /* Media query: desktops (1200px and up) */
