@@ -121,14 +121,23 @@ main{
     color: black;
     text-align: center;
 }
-#three-main-breeds{
+.three-main-breeds{
     color: black;
 }
-#three-main-breeds div{
+.three-main-breeds div{
     border: 2px solid black;
     border-radius: 8px;
     margin: 2px 2px;
     text-align: center;
+}
+/* First three images */
+/* Second thee images */
+.dogs-pictures{
+    width: 100%;
+}
+.dogs-pictures img{
+    max-width: 100%;
+    display: block;
 }
 /* Footer */
 footer{
@@ -157,7 +166,8 @@ footer{
     padding: 5px;
     }
     /* First two images */
-    #dogs-images{
+    /* Second two images */
+    .dogs-images{
         max-height: 400px;
     }
     /* Quotes section */
@@ -178,8 +188,11 @@ footer{
         border: 1px solid black;
         border-radius: 8px;
     } 
-    /* First two images */
-    .dogs-images{
+    /* First two images on home page*/
+    /* Second two images on home page*/
+    /* First three images on common breeds page */
+    /* Second three images on common breeds page */
+    .dogs-images, .dogs-pictures{
         background-color: black;
         display: flex;
         flex-direction: row;
@@ -189,17 +202,16 @@ footer{
     .dogs-images img{
         width: 40%;
     }
-    /* Quotes section */
-    .quotes{
-        column-count: 4;
+    .dogs-pictures img{
+        width: 30%;
     }
     /* Three main breeds */
-    #three-main-breeds{
+    .three-main-breeds{
         display: flex;
         flex-wrap: nowrap;
         background-color: black;
     }
-    #three-main-breeds div{
+    .three-main-breeds div{
         background-color: oldlace;
         width: 100%;
         margin: 10px;
