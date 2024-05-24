@@ -103,9 +103,12 @@ main{
 .quotes p{
     padding: 5px;
     border: 1px solid black;
+    outline: 5px solid black;
     border-radius: 8px;
     text-align: center;
-    margin: 2px;
+    margin: 15px;
+    height: 100px;
+    gap: 5px;
 }
 /* Footer */
 footer{
@@ -136,6 +139,11 @@ footer{
     #dogs-images{
         max-height: 400px;
     }
+    /* Quotes section */
+    .quotes{
+        column-count: 2;
+        column-gap: 1px;
+    }
 }
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px){
@@ -158,6 +166,10 @@ footer{
     }
     .dogs-images img{
         width: 40%;
+    }
+    /* Quotes section */
+    .quotes{
+        column-count: 4;
     }
 }
 /* Media query: desktops (1200px and up) */
