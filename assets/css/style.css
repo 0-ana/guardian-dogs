@@ -54,7 +54,6 @@ main{
     background-color: oldlace; 
     width: 100%;
     flex: 1 0 auto;
-    margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
@@ -109,6 +108,13 @@ main{
     margin: 15px;
     height: 100px;
     gap: 5px;
+}
+/* Common breeds */
+/* Main image */
+#hero-common-breeds{
+    background: url("/assets/images/belgian-shepherd-and-doberman.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 400px;
 }
 /* Footer */
 footer{
