@@ -29,7 +29,39 @@
         </nav>
     </header>
     <!-- Main -->
-    <main>Main</main>
+    <main>
+        <section id="feedback">
+            <form id="signup" action="https://formdump.codeinstitute.net" method="POST">
+                <h3>Tell us your opinion!</h2>
+                <div id="personal-info">
+                    <h3>Personal info:</h3>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="first-name" required>
+                    <br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="last-name" required>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email-address" required>
+                    <div id="radio-buttons">
+                        <p>Age:</p>
+                        <div>
+                            <label for="-18"><18</label>
+                            <input type="radio" id="-18" name="age" value="<18" required checked>
+                        </div>
+                        <div>    
+                            <label for="18-40">18-40</label>
+                            <input type="radio" id="18-40" name="age" value="18-40" required>
+                        </div>
+                        <div>    
+                            <label for="40+">40+</label>
+                            <input type="radio" id="40+" name="age" value="40+" required>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <ul id="networks">

@@ -139,6 +139,39 @@ main{
     max-width: 100%;
     display: block;
 }
+/* Feedback page */
+#feedback{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+#signup{
+    background-color: oldlace;
+    padding: 30px 20px;
+    margin: 20px 20px;
+}
+#signup > h3{
+    text-align: center;
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 130%;
+}
+#personal-info{
+    margin: 20px 0;
+}
+#personal-info h3{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+#radio-buttons{
+    text-align: center;
+}
+#radio-buttons p{
+    margin: 10px 10px;
+}
+#radio-buttons div{
+    display: inline-block;
+    padding: 5px;
+}
 /* Footer */
 footer{
     background-color: black;
