@@ -155,10 +155,10 @@ main{
     font-family: 'Poetsen One', sans-serif;
     font-size: 130%;
 }
-#personal-info{
+#personal-info, #opinion, #comment{
     margin: 20px 0;
 }
-#personal-info h3{
+form h3{
     text-decoration: underline;
     margin-bottom: 10px;
 }
@@ -168,10 +168,16 @@ main{
 #radio-buttons p{
     margin: 10px 10px;
 }
-#radio-buttons div{
+#radio-buttons{
     display: inline-block;
     padding: 5px;
 }
+#comment label{
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+}
+
 /* Footer */
 footer{
     background-color: black;
