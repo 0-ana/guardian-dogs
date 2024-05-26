@@ -144,6 +144,7 @@ main{
     background-color: black;
     width: 100%;
     height: 100%;
+    text-align: center;
 }
 #signup{
     background-color: oldlace;
@@ -162,22 +163,23 @@ form h3{
     text-decoration: underline;
     margin-bottom: 10px;
 }
-#radio-buttons{
-    text-align: center;
-}
 #radio-buttons p{
     margin: 10px 10px;
+    text-decoration: underline;
 }
 #radio-buttons{
-    display: inline-block;
-    padding: 5px;
+    display: inline-block
 }
 #comment label{
     text-decoration: underline;
     font-size: large;
     font-weight: bold;
 }
+form > div{
+    border: 1px solid black;
+    padding: 5px 5px;
 
+}
 /* Footer */
 footer{
     background-color: black;
