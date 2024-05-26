@@ -147,17 +147,21 @@ main{
     text-align: center;
 }
 #signup{
-    background-color: oldlace;
+    background-color: black;
     padding: 30px 20px;
-    margin: 20px 20px;
 }
 #signup > h3{
-    text-align: center;
     font-family: 'Poetsen One', sans-serif;
     font-size: 130%;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    background-color: oldlace;
 }
 #personal-info, #opinion, #comment{
     margin: 20px 0;
+    background-color: oldlace;
 }
 form h3{
     text-decoration: underline;
@@ -178,7 +182,16 @@ form h3{
 form > div{
     border: 1px solid black;
     padding: 5px 5px;
-
+    border-radius: 8px;
+}
+#comment textarea{
+    max-width: 100%;
+} 
+.submit{
+    width: 75px;
+    height: 30px;
+    background-color: oldlace;
+    font-weight: bold;
 }
 /* Footer */
 footer{
@@ -215,6 +228,10 @@ footer{
     .quotes{
         column-count: 2;
         column-gap: 1px;
+    }
+    /* Feedback page */
+    #signup{
+        margin: 30px 40px;
     }
 }
 /* Media query: laptops and larger (992px and up) */
@@ -258,6 +275,10 @@ footer{
         margin: 10px;
         text-align: center;
     }
+    /* Feedback page */
+    #signup{
+        margin: 30px 80px;
+    }
 }
 /* Media query: desktops (1200px and up) */
 @media screen and (min-width: 1200px){
@@ -266,4 +287,8 @@ footer{
     #about, #common-breeds{
         padding: 10px 50px;
     }  
+    /* Feedback page */
+    #signup{
+        margin: 30px 120px;
+    }
 }
