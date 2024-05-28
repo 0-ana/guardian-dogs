@@ -60,7 +60,7 @@ main{
 }
 /* Main image */
 #hero{
-    background: url("/assets/images/dogs-on-leash.jpg") no-repeat center center/cover;
+    background: url("../images/dogs-on-leash.jpg") no-repeat center center/cover;
     width: 100%;
     height: 400px;
 }
@@ -82,7 +82,6 @@ main{
 }
 /* Benefits section */
 .benefits{
-    width: 100%;
     background-color: oldlace;
 }
 .benefits h3{
@@ -97,22 +96,24 @@ main{
 }
 /* Quotes section */
 .quotes{
-    margin: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+
 }
-.quotes p{
-    padding: 5px;
-    border: 1px solid black;
-    outline: 5px solid black;
+.quotes div{
+    background-color: oldlace;
+    border: 2px solid black;
     border-radius: 8px;
-    text-align: center;
-    margin: 15px;
-    height: 100px;
-    gap: 5px;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
 }
 /* Common breeds */
 /* Main image */
 #hero-common-breeds{
-    background: url("/assets/images/belgian-shepherd-and-doberman.jpg") no-repeat center center/cover;
+    background: url("../images/belgian-shepherd-and-doberman.jpg") no-repeat center center/cover;
     width: 100%;
     height: 400px;
 }
@@ -214,21 +215,36 @@ footer{
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
-    /* About guardian dogs */
-    /* Common breeds */
-    #about p, #common-breeds p{
+/* About guardian dogs */
+/* Common breeds */
+#common-breeds p{
     padding: 5px;
-    }
-    /* First two images */
-    /* Second two images */
-    .dogs-images{
-        max-height: 400px;
-    }
-    /* Quotes section */
-    .quotes{
-        column-count: 2;
-        column-gap: 1px;
-    }
+}
+/* Benefits section */
+.benefits, #about{
+    background-color: black;
+}
+.benefits div, #about p{
+    border: 2px solid black;
+    background-color: oldlace;
+    border-radius: 8px;
+    margin: 5px 10px;
+    padding: 5px 5px;
+}
+/* Quotes section */
+.quotes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+.quotes div{
+    background-color: oldlace;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
     /* Feedback page */
     #signup{
         margin: 30px 40px;
