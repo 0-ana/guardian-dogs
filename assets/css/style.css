@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
 /* Asterisk wildcard */
 *{
@@ -204,6 +204,21 @@ form > div{
     background-color: oldlace;
     font-weight: bold;
 }
+/* Thank you page */
+#thank-you{
+    text-align: center;
+    padding-top: 280px;
+    height: fit-content;
+    height: 660px;
+}
+#thank-you h1{
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 200%;
+}
+#thank-you p{
+    margin-top: 20px;
+    font-size: 130%;
+}
 /* Footer */
 footer{
     background-color: black;
@@ -223,6 +238,7 @@ footer{
     padding-top: 10px;
     letter-spacing: 30px;
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
 /* Main tilte */
