@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Body */
 body{
     width: 100%;
@@ -126,7 +127,6 @@ main{
     font-family: 'Poetsen One', sans-serif;
     font-size: 100%;
     text-align: center;
-    text-decoration: underline;
 }
 #common-breeds{
     color: black;
