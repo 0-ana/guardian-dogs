@@ -205,17 +205,18 @@ form > div{
     font-weight: bold;
 }
 /* Thank you page */
-#thank-you{
+/* 404 Page */
+#thank-you, #not-found{
     text-align: center;
     padding-top: 280px;
     height: fit-content;
     height: 660px;
 }
-#thank-you h1{
+#thank-you h1, #not-found h1{
     font-family: 'Poetsen One', sans-serif;
     font-size: 200%;
 }
-#thank-you p{
+#thank-you p, #not-found p{
     margin-top: 20px;
     font-size: 130%;
 }
