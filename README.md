@@ -123,7 +123,7 @@ Guardian Dogs is a page for all guardian dog lovers and those who are in doubt w
 
 ## Wireframes 
 
-Balsamiq Wireframes were used as the initial idea for design of the website. In the end, it didn't turn out exactly the same as in the pictures because of the appearance itself.
+Balsamiq Wireframes were used as the initial idea for design of the website. In the end, it didn't turn out exactly the same as in the pictures because I have changed my mind.
 
 * Home page
 
