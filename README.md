@@ -187,6 +187,8 @@ Balsamiq Wireframes were used as the initial idea for design of the website. In 
 * Accessibility
   * Wave Accessibility tool was used to test accessibility: https://wave.webaim.org/
 
+![Wave accessibility](docs/readme-images/wawe-accessibility.jpg)
+
 * Functional Testing
   * all internal and external links works properly
 
