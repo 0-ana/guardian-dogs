@@ -1,112 +1,217 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Guardian Dogs
 
-Welcome Ana Ivanovic,
+Guardian Dogs is a page for all guardian dog lovers and those who are in doubt whether a guardian dog is what they need. This page contains general information about guardian dogs, their training and breeds. View the live site [here](https://0-ana.github.io/guardian-dogs/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsiveness](docs/readme-images/responsiveness.jpg)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+## Features
 
-## Gitpod Reminders
+#### Through all three pages
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Navigation bar
+  * contains links to the Home, Common breeds and Feedback pages and will be responsive on all devices.
+  * allows the user to easily navigate between the three pages without having to use the back button
 
-`python3 -m http.server`
+![Navigation bar](docs/readme-images/navigation-bar.jpg)
 
-A blue button should appear to click: _Make Public_,
+* Footer
+  * contains icons and links for Facebook, Twitter and Instagram
+  * allows the user access on all three pages
 
-Another blue button should appear to click: _Open Browser_.
+![Footer](docs/readme-images/footer.jpg)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+#### Home page
 
-A blue button should appear to click: _Make Public_,
+* Home page main image
+  * contains the main image on the homepage
+  * immediately lets the user know that the page is about dogs
 
-Another blue button should appear to click: _Open Browser_.
+![Home page main image](docs/readme-images/dogs-on-leash.jpg)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* h1 title
+  * contains the main title of the home page
+  * lets the user know what the page is about
 
-To log into the Heroku toolbelt CLI:
+![Home page main title](docs/readme-images/h1-home.jpg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* About guardian dogs
+  * contains general text about guardian dogs and their training
+  * It helps the user see if it's something they're willing to commit to
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+![About guardian dogs](docs/readme-images/about-guardian-dogs.jpg)
 
-------
+* First two images on home page
 
-## Release History
+![First two images on home page](docs/readme-images/first-two-images.jpg)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Benefits of having guardian dog
+  * contains some of benefits of having guardian dog
 
-**April 26 2024:** Update node version to 16
+![Benefits of having guardian dog](docs/readme-images/benefits.jpg)
 
-**September 20 2023:** Update Python version to 3.9.17.
+* Second two images on home page
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Second two images on home page](docs/readme-images/second-two-images.jpg)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* Quotes section
+  * contains 4 quotes about dogs
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Quotes](docs/readme-images/quotes.jpg)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### Common breeds page
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* Common breeds page main image
+  * contains the main image on the common breeds page
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Common breeds main image](docs/readme-images/common-breeds-main-image.jpg)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* h1 title
+  * contains the main title of the common breeds page
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Common breeds title](docs/readme-images/h1-common-breeds.jpg)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Three main types of guardian dogs
+  * contains a description of three types of guardian dogs
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Three guardian dogs types](docs/readme-images/three-main-breeds.jpg)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* First three images 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ ![First two images](docs/readme-images/first-three-images.jpg)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Guard dogs types
+  * contains a description of three types of guard dogs 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Guard dogs types](docs/readme-images/guard-dogs-breeds.jpg)
 
-------
+* Second three images 
 
-## FAQ about the uptime script
+ ![Second two images](docs/readme-images/second-three-images.jpg)
 
-**Why have you added this script?**
+#### Feedback page
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* Contact form
+  * this page will allow the user to evaluate the usefulness of the page and to leave an additional comment if he wishes
 
-**How will this affect me?**
+![Feedback](docs/readme-images/feedback.jpg)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* Thank you page
+  * when the user fills in the feedback, he will be sent to a page that thanks him for his time invested
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Thank you](docs/readme-images/thank-you.jpg)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Technologies
 
-**So….?**
+* HTML
+  * The structure of the Website was developed using HTML as the main language.
+* CSS
+  * The Website was styled using custom CSS in an external file.
+* Gitpod
+  * The website was developed using Gitpod.
+  * Gitpod was used to commit and push code to GitHub.
+* GitHub
+  * Source code is hosted on GitHub
+  * Webpage is deployed using from Github
+* Favicon
+  * Favicon files were created at https://favicon.io/favicon-converter/ 
+* Icons
+  * Icons obtained from https://fontawesome.com/ were used in the footer section.
+* Google Fonts
+  * Text was styled using fonts from https://fonts.google.com/
+* Balsamiq Wireframes
+  * wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Wireframes 
 
-**Can I opt out?**
+Balsamiq Wireframes were used as the initial idea for design of the website. In the end, it didn't turn out exactly the same as in the pictures because of the appearance itself.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* Home page
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![Home page mobile phone](docs/readme-images/home-page-mobile-phone-wireframes.jpg)
 
-**Anything more?**
+![Home page tablet](docs/readme-images/home-page-tablet-wireframes.jpg)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![Home page laptop](docs/readme-images/home-page-laptop-wireframes.jpg)
 
----
+![Home page desktop](docs/readme-images/home-page-desktop-wireframes.jpg)
 
-Happy coding!
+* Common brees page
+
+![Common breeds mobile phone](docs/readme-images/common-breeds-mobile-phone-wireframes.jpg)
+
+![Common breeds tablet](docs/readme-images/common-breeds-tablet-wireframes.jpg)
+
+![Common breeds laptop](docs/readme-images/common-breeds-laptop-wireframes.jpg)
+
+![Common breeds desktop](docs/readme-images/common-breeds-desktop-wireframes.jpg)
+
+* Feedback page
+
+![Feedback mobile phone](docs/readme-images/feedback-mobile-phone-wireframes.jpg)
+
+![Feedback tablet](docs/readme-images/feedback-tablet-wireframes.jpg)
+
+![Feedback laptop](docs/readme-images/feedback-laptop-wireframes.jpg)
+
+![Feedback desktop](docs/readme-images/feedback-desktop-wireframes.jpg)
+
+## Testing
+
+* Responsiveness
+  * All pages were tested to ensure responsiveness on screen sizes from 280px and upwards
+  * the website works as planned on all sreen sizes
+
+* Validator Testing
+  * HTML validator https://validator.w3.org/
+    * the only drawback is that there are no titles in all sections, however this is not a page where titles are needed
+
+![Home page](docs/validation/index-validator.jpg)
+![Common breeds page](docs/validation/common-breeds-validator.jpg)
+![Feedback](docs/validation/feedback-validator.jpg)
+
+  * CSS validator https://jigsaw.w3.org/css-validator/
+
+![CSS Validator](docs/validation/css%20validator.jpg)
+
+* Lighthouse
+  * Home page
+
+![Home page](docs/validation/index-lighthouse.jpg)
+  * Common breeds page
+
+![Common breeds page](docs/validation/common-breeds-lighthouse.jpg)
+  * Feedback page
+
+![Feedback](docs/validation/feedback-lighthouse.jpg)
+
+* Accessibility
+  * Wave Accessibility tool was used to test accessibility: https://wave.webaim.org/
+
+* Functional Testing
+  * all internal and external links works properly
+
+## Deployment
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+  * In the GitHub repository, navigate to the Settings tab
+  * From the menu on left select 'Pages'
+  * From the source section drop-down menu, select the Branch: main
+  * A live link will be displayed in a green banner when published successfully.
+The live link can be found here - https://0-ana.github.io/guardian-dogs/
+
+## Credits
+
+* Content
+  * text about guardian dogs, their training and breeds are taken from:
+    * https://www.3dk9detection.com/news/dog-guide-the-5-key-difference-between-a-guard-dog-and-a-protection-dog
+    * http://protegek9.com/en/education-center/guard-dogs-and-sentry-dogs
+    * https://www.goodhousekeeping.com/life/pets/g22997516/best-guard-dogs/
+  * quotes are taken from:
+    * https://www.care.com/c/the-101-best-dog-quotes
+  
+* Media
+  * images are takeon from:
+    * https://www.pexels.com/
+      * they are resized using https://imageresizer.com/ and paint tools
+      * sizes of images are reduced using https://tinypng.com/
+      * images are converted from jpg to webp using https://convertio.co/jpg-webp/
